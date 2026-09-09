@@ -1,0 +1,36 @@
+name: Bug report
+description: Something in Cross Platform Terminal does not work as it should
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: CPT version
+      description: Shown in the title bar or under **Settings → About**.
+      placeholder: v0.2.9
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Linux
+        - Windows
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Terminal output or logs
+      description: Any relevant output. Copy the logs from **Settings → About** if the app is still running.
+      render: shell
+    validations:
+      required: false

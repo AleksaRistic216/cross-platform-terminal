@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest something Cross Platform Terminal should be able to do
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the workflow you are stuck on, not the solution you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like CPT to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you work around it today?
+      description: Other terminals, scripts, or manual steps that get you close.
+    validations:
+      required: false
