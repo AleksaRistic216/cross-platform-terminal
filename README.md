@@ -54,7 +54,7 @@ No manual download or installer needed. The update runs in the background and do
 
 ### Unstable builds
 
-Under **Settings → Updater** you can tick **Unstable builds** to be offered pre-release versions as they are cut, ahead of the stable release. They carry the newest features and the newest bugs, so expect rough edges — an update offer says plainly when it is an unstable build, before you install it.
+Under **Settings → About** you can tick **Offer unstable pre-release builds** to be offered pre-release versions as they are cut, ahead of the stable release. They carry the newest features and the newest bugs, so expect rough edges — an update offer says plainly when it is an unstable build, before you install it.
 
 You are still offered a stable release whenever it is the newer one, so unticking the box leaves you on the next stable version rather than stranding you on a pre-release.
 
