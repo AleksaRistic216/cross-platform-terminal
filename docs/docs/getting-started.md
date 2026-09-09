@@ -36,6 +36,16 @@ Widgets are docked using ImGui's docking system. To rearrange:
 
 To equalize an uneven layout: **Ctrl+Shift+Alt+L** (Redistribute Layout).
 
+**View → Auto Layout Mode** decides what that produces, and where a newly opened
+widget lands:
+
+- **Side by Side** (default) — every widget in one even row.
+- **Smart** — keep the arrangement the view has and only even out the pane sizes
+  within it.
+
+The explicit splits below (**Ctrl+Shift+G** / **Ctrl+Shift+F**) always go where
+you asked, whichever mode is set.
+
 To keep one panel out of that — a narrow file tree, a log pane you sized by hand
 — pin it with the thumbtack button in its tab strip, or **Ctrl+Shift+Alt+P**. A
 pinned panel keeps its size and its place, and the rest share out what is left.

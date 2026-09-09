@@ -73,6 +73,18 @@ dot beside its tab name.
 **New Tab** splits within the same terminal widget (a tab bar appears at the bottom of the panel).  
 **New Terminal Below / Right** spawns a new terminal widget docked below or to the right of the current one. Both inherit the current working directory.
 
+### Close dialog (while "... is still running in this terminal" is up)
+
+| Action | Default |
+|--------|---------|
+| Close Dialog: Keep Running | `K` |
+| Close Dialog: End Session | `E` |
+| Close Dialog: Cancel | `Escape` |
+
+These are read only while that dialog is open, which is why single keys are safe —
+nothing typed at a shell can reach them. Each button shows its current key, and all
+three rebind like any other shortcut.
+
 ---
 
 ## AI Inventory (when the AI Inventory panel is focused)
