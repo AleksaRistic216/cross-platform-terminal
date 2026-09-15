@@ -4,7 +4,7 @@
 
 ### In-app rebinding
 
-Open **Settings → Keyboard Shortcuts**. Each action shows its current binding; click **Rebind** to capture a new key combo. Use **Reset** to restore a single action's default, or **Reset All** to restore all defaults.
+Open **CPT logo → Settings → Global Shortcuts**. Each action shows its current binding; click **Rebind** to capture a new key combo. Use **Reset** to restore a single action's default, or **Reset All** to restore all defaults.
 
 ### Config file
 

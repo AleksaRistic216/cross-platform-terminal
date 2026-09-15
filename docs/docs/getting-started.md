@@ -46,9 +46,8 @@ widget lands:
 The explicit splits below (**Ctrl+Shift+G** / **Ctrl+Shift+F**) always go where
 you asked, whichever mode is set.
 
-To keep one panel out of that — a narrow file tree, a log pane you sized by hand
-— pin it with the thumbtack button in its tab strip, or **Ctrl+Shift+Alt+P**. A
-pinned panel keeps its size and its place, and the rest share out what is left.
+Pinning a panel's size and position is obsolete: the thumbtack button is gone,
+and every panel takes part in the automatic re-layouts.
 
 ---
 
@@ -92,8 +91,7 @@ A Workflow is a named sequence of steps that can inject text or run a script int
 
 ## Settings
 
-Open **Settings** from the menu bar to access:
+Click the **CPT logo** at the left of the title bar and choose **Settings** to reach:
 
-- **About** — current version
-- **Keyboard Shortcuts** — view and rebind all shortcuts
+- **Global Shortcuts** — view and rebind the app-wide shortcuts
 - **Terminal** — font size, shell, and other terminal options

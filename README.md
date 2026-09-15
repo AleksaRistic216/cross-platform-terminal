@@ -73,19 +73,19 @@ or `pkgin install curl`.
 
 ## Updating
 
-Open **Settings → About** and click **Check for Update**. If a newer version is available, click **Download & Install** — the app will replace itself in place and prompt you to restart.
+Open **CPT logo → About** and click **Check for Update**. If a newer version is available, click **Download & Install** — the app will replace itself in place and prompt you to restart.
 
 No manual download or installer needed. The update runs in the background and does not interrupt your session.
 
 ### Unstable builds
 
-Under **Settings → About** you can tick **Offer unstable pre-release builds** to be offered pre-release versions as they are cut, ahead of the stable release. They carry the newest features and the newest bugs, so expect rough edges — an update offer says plainly when it is an unstable build, before you install it.
+Under **CPT logo → About** you can tick **Offer unstable pre-release builds** to be offered pre-release versions as they are cut, ahead of the stable release. They carry the newest features and the newest bugs, so expect rough edges — an update offer says plainly when it is an unstable build, before you install it.
 
 You are still offered a stable release whenever it is the newer one, so unticking the box leaves you on the next stable version rather than stranding you on a pre-release.
 
 ## Uninstalling
 
-Open **Settings → About** and click **Uninstall...**. The dialog lists exactly what will be
+Open **CPT logo → About** and click **Uninstall...**. The dialog lists exactly what will be
 removed and offers a **Keep my settings and stay signed in** option. Confirming closes the app and
 removes the installation.
 
@@ -110,6 +110,6 @@ id — keep it if you plan to reinstall.
 ## Reporting Issues
 
 Bug reports and feature requests go to the [Issues](../../issues) page. Please include:
-- Cross Platform Terminal (CPT) version (shown in the title bar or **Settings → About**)
+- Cross Platform Terminal (CPT) version (shown in the title bar or **CPT logo → About**)
 - What you did, what you expected, what happened
 - Any relevant terminal output

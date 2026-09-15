@@ -1,6 +1,6 @@
 # Keyboard Shortcuts
 
-All shortcuts are rebindable. To customize them, open **Settings → Keyboard Shortcuts** inside the app, or edit the config file directly — see [Customization](../customization.md).
+All shortcuts are rebindable. To customize them, open **CPT logo → Settings → Global Shortcuts** inside the app, or edit the config file directly — see [Customization](../customization.md).
 
 ---
 
@@ -34,7 +34,7 @@ Move keyboard focus between widgets without using the mouse.
 | Action | Default |
 |--------|---------|
 | Close Focused Widget | `Ctrl+Shift+W` |
-| Pin/Unpin Widget | `Ctrl+Shift+Alt+P` |
+| Pin/Unpin Widget *(obsolete)* | `Ctrl+Shift+Alt+P` |
 | Move Widget Left | `Ctrl+Shift+Alt+Home` |
 | Move Widget Right | `Ctrl+Shift+Alt+End` |
 | Move Widget Up | `Ctrl+Shift+Alt+Page Up` |
@@ -44,16 +44,9 @@ Move keyboard focus between widgets without using the mouse.
 | Shrink Widget Height | `Ctrl+Shift+Alt+]` |
 | Grow Widget Height | `Ctrl+Shift+Alt+'` |
 
-**Pin/Unpin Widget** protects a deliberately sized panel — a narrow file tree on
-the left, a log pane on the right — from the automatic re-layouts. A pinned
-widget keeps its size and its slot when you Redistribute Layout or close a
-sibling, and the move shortcuts neither move it nor displace it. Everything else
-shares out the space that is left. Dragging and the resize shortcuts still work
-on a pinned widget, so pinning is not a lock.
-
-The same toggle is the thumbtack button in a panel's tab strip, next to the
-maximize button. A pinned panel shows a filled blue thumbtack there, and a blue
-dot beside its tab name.
+**Pin/Unpin Widget** is obsolete. Pressing it only shows a status-bar message
+saying so. The thumbtack button is gone from the tab strip, and a panel pinned
+in an earlier version now follows the automatic re-layouts like any other.
 
 ---
 
